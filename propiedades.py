@@ -25,7 +25,7 @@ print(nombre)
 
 
 
-franco.__nombre = 'pepe'
+franco.__nombre = 'pepes'
 
 nombre = franco.__nombre
 print(nombre)
