@@ -9,7 +9,7 @@ class personaje:
         return f'{self.nombre}, (fuerza: {self.fuerza}, velocidad: {self.velocidad})'
     
  
-155    def __add__ (self, otro_pj):
+    def __add__ (self, otro_pj):
         nuevo_nombre = self.nombre + '-' + otro_pj.nombre
         nueva_fuerza = round(((self.fuerza + otro_pj.fuerza)/2)**1.5)
         nueva_velocidad = round (((self.velocidad + otro_pj.velocidad)/2)**1.5)
